@@ -3,7 +3,7 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 
 # Deep Reinforcement Learning : Project 3: Collaboration and Competition 
-### Author : Nishi Sood
+### Author : Tarun Rao
 
 ## Summary
 
@@ -116,12 +116,8 @@ The scores are quite noisy, as it is often the case with multi-agent tasks, but 
 
 
 ## Ideas for future work
- - Because of the symmetry of the environment, each agent mirrors the other one behavior. A great challenge would be to tackle an environment in which the Multi-Agent Reinforcement Learning framework could apply, like the Soccer environment.
- - `Hyperparameter optimization` :Many of the hyperparameters, such as the network architectures (number of layers and neurons), learning rates, batch and buffer sizes, and the level of noise, could be further tuned to improve performance.
- - `Add prioritized experience replay` : Rather than selecting experience tuples randomly, prioritized replay selects experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the probability that rare or important experience vectors are sampled.
- - Check out stabilization techniques for multi-agent systems.
-- The plot below highlighting the instability of the learning after having solved the environment.
-![DDPG agent instability](img/scores-in-the-long-run.png)
+ - Need to try implementing thisw concept in a more challenging soccer game environment
+ - Hyperparameter optimization 
 
 
 
