@@ -66,7 +66,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ## Results
  - The agents are trained until they solve the environment, that is to say when one the two agents obtains an average reward of at least +0:5 over the last 100 episode.
- - Using the specified setup and after hyperparameters tuning ,the environment was solved in about `1141 episodes in less than 5 min on a laptop and without GPU`.
+ - Using the specified setup and after hyperparameters tuning ,the environment was solved in about `1478 episodes in less than 5 min on a laptop and without GPU`.
 
  
 ### Plot of the result
@@ -84,10 +84,8 @@ Below the plot of scores over episodes:
 </p>
 
 ## Ideas for future work
- - Because of the symmetry of the environment, each agent mirrors the other one behavior. A great challenge would be to tackle an environment in which the Multi-Agent Reinforcement Learning framework could apply, like the Soccer environment.
- - `Hyperparameter optimization` :Many of the hyperparameters, such as the network architectures (number of layers and neurons), learning rates, batch and buffer sizes, and the level of noise, could be further tuned to improve performance.
- - `Add prioritized experience replay` : Rather than selecting experience tuples randomly, prioritized replay selects experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the probability that rare or important experience vectors are sampled.
- - Check out stabilization techniques for multi-agent systems.
+ - Try implementing this concept in much challenging soccer environment
+ - Hyperparameter optimization
 - The plot below highlighting the instability of the learning after having solved the environment.
 <p align="center">
 	<img src="img/scores-in-the-long-run.png" width=50% height=50%>
