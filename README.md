@@ -5,7 +5,7 @@
 # Project 3: Collaboration and Competition
 
 ##  Introduction
-This project repository contains Nishi Sood’s work for the Udacity's Deep Reinforcement Learning Nanodegree `Project 3:Collaboration and Competition`. For this project, we train a pair of agents to play [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis).
+This project repository contains Tarun Rao's work for the Udacity's Deep Reinforcement Learning Nanodegree `Project 3:Collaboration and Competition`. For this project, we train a pair of agents to play [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis).
 The project environment is similar to, but not identical to the Tennis environment on the Unity ML-Agents GitHub page.
 ![Trained Agent][image1]
 
