@@ -14,7 +14,7 @@ protobuf>=3.6
 grpcio==1.11.0
 #torch==0.4.0
 pandas
-scipy==1.1.0
+scipy==1.10.0
 ipykernel
 box2d-py==2.3.5
 
